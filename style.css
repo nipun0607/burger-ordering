@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    background-image: url("https://img.freepik.com/premium-photo/background-cooking-black-wooden-background-top-view-free-space-your-text_187166-5650.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fooditems label{
+    font-size: xx-large;
+    font-weight: 800;
+}
+#order_food{
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    font-size:2rem;
+    background-color:gray ;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    color:aliceblue
+
+}
+#fooditems{
+    display: flex;
+    gap:0.5rem;
+    cursor: pointer;
+    color: red;
+    font:1.5 rem;
+}
+
+#foodimage{
+    width: 400px;
+    height:400px;
+    margin-top: 80px;
+    display: none;
+
+}
+#orderID{
+    position: absolute;
+    top:20px;
+    right:20px;
+    font-size: 2rem;
+    color: red;
+    display: none;
+
+}
